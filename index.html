@@ -4,38 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style type="text/tailwindcss">
+        @theme{
+            --montaga:"Montaga";
+            --color-premary:#C6754D;
+            --color-secondaire:#2B1105;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <nav class="bg-white shadow-md">
-            <ul class="flex justify-around px-6 py-4 mt-4 font-normal text-xl  container mx-auto items-center" >
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>Our Story</li></a>
-                <a href="#"><li>Venue</li></a>
-                <a href="#"><li><img class=""  src="/assets/images/Logo (1).svg" alt=""> </li>
-                <a href="#"><li></li></a>
-                <a href="#"><li>Itinierary</li></a>
-                <a href="#"><li>Registry</li></a>
-                <a href="#"><li>RSVP</a>
-                
-            </ul>
+        <nav class="bg-white  font-[Montaga]">
+               <div class=" w-full" >
+                <ul class="flex  justify-evenly items-center w-full" >
+                    <a href="#" class="hover:text-blue-500" ><li  class="">Home</li></a >  
+                    <a href="#"  class="hover-text:text-bl"><li  class="">Our Story</li></a>
+                    <a href="#" class="hover-text:text-black" ><li class="" >Venue</li></a>
+                     <img src="/assets/images/Logo (1).svg" alt="" class="">
+                    <a href="#" class="hover-text:text-black" ><li class="" >Itinierary</li></a>
+                    <a href="#" class="hover-text:text-black" ><li class="" >Registry</li></a>
+                    <a href="#" class="hover-text:text-black " ><li  class="">RSVP</a>
+                </ul>
+               </div>         
         </nav>
     </header>
+    <!-- finnnnnnnnnnnnnn nvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvva -->
     <section>
-        <div class="flex flex-col items-center justify-center">
-            <h6 class="justify center mt-6">Please join us to celebrate</h6>
-            <h1 class=" mt-8 text-red-5  font-normal text-8xl " >Caleb & Amaya</h1>
-            <h6 class="p-6" >July 15, 2022-Boise, Idaho </h6>
+        <div class="flex flex-col items-center mt-12 justify-center">
+            <h6 class="justify text-premary  text-center mt-12">Please join us to celebrate</h6>
+            <h1 class=" mt-8 text-red-5  text-secondaire font-[Montaga] text-8xl " >Caleb & Amaya</h1>
+            <h6 class="p-6  text-premary " >July 15, 2022-Boise, Idaho </h6>
             
         </div>
     </section>
-    <section class="flex items-center  justify-center" >
+    <section class="flex items-center mt-8 justify-center" >
         <div><img src="/assets/images/lhoe et bla femme.svg" alt=""></div>
     </section >
-    <section class="flex justify-between mt-8 bg-red-200 gap-8">          
-        <h2 class="flex1 text-8xl mt-6 "  >Our Story</h2>
-        <p class="flex-3"> Fgiat pretium egestas enim blandit purus euismod. <br> Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit elit. Maecenas pellentesque sit eros vitae. Maecenas suspendisse tincidunt ullamcorper justo neque quis et, laoreet.
+    <section class="flex justify-between mt-8 bg-red-200 bg-cover gap-8">          
+        <h2 class="flex1 text-8xl mt-6 font-[Montaga] "  >Our Story</h2>      
+         <p class="flex-3"> Fgiat pretium egestas enim blandit purus euismod. <br> Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam diam felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus pretium egestas ultricies tempus sit elit. Maecenas pellentesque sit eros vitae. Maecenas suspendisse tincidunt ullamcorper justo neque quis et, laoreet.
 
             Vitae lacus, aliquet lorem mauris, sit dolor sodales. Nullam quam quis lorem dui tristique massa enim. <br>  Faucibus sed egestas mollis vivamus et sed sed.
             
